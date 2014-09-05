@@ -26,14 +26,17 @@ body{
 .img{
 	padding-top:10px;
 	padding-bottom:10px;
+	position: relative;
 }
 
 .container{
 	border:1px solid;
 	padding:10px;
+	overflow:hidden;
 }
 #wrapper{
 	width: 640px;
+	overflow:hidden;
 }
 .top{
 	display:block;
@@ -74,4 +77,18 @@ body{
 .buttons a{
 	text-decoration: none;
 	color:white;
+}
+.media {
+margin: 10px;
+float: left;
+width:25%;
+}
+.label{
+	position:absolute;
+	top: 50px;
+	left: 25px;
+	color:white;
+	background-color: black;
+	opacity: 0.4;
+	text-transform: uppercase;
 }
